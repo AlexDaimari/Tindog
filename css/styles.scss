@@ -1,0 +1,160 @@
+@import "color";
+@import "fonts";
+
+
+body {
+    font-family: $std-font;
+    text-align: center;
+  }
+  
+  #title {
+    background-color: $base-color;
+    padding-bottom: 5rem;
+    text-align: left;
+  }
+  
+  h1 {
+    font-family: $std-font, sans-serif;
+    font-size: $font-size-std;
+    line-height: 1.5;
+    color: white;
+    padding-bottom: 3rem;
+  }
+  
+  h2 {
+    font-family: $std-font-bold;
+  }
+  
+  p {
+    font-family: $sec-font;
+    color: #8f8f8f;
+  }
+  
+  /* title-section */
+  .container-fluid {
+    padding: 3% 15%;
+  }
+  
+  .iphone {
+    transform: rotate(20deg);
+    width: 18rem;
+    position: absolute;
+    right: 25%;
+  }
+  
+  .navbar-brand {
+    font-family: $sec-font-bold, sans-serif;
+    font-size: $font-size-std;
+  }
+  
+  .nav-item {
+    font-size: 1.5rem;
+    padding: 0 18px;
+    font-family: $std-font-light;
+  }
+  
+  .navbar {
+    padding: 0 0 4.5rem;
+  }
+  
+  /* feature-section */
+
+  #features {
+    margin-bottom: 2rem;
+    padding: 7% 15%;
+    background-color: $tert-color;
+    position: relative;
+  }
+  
+  .features-cont {
+    padding: 5%;
+    color: $base-color;
+  }
+  
+  .feat-icon {
+    margin: 2rem;
+  }
+  
+  .feat-icon:hover {
+    color: $base-color;
+  }
+  
+  /* testimonials-section */
+  #testimonials {
+    background-color: $sec-color;
+    color: white;
+  }
+  
+  .carousel-item {
+    padding: 7% 15%;
+  }
+  
+  .dog-img {
+    margin: 20px;
+    width: 10%;
+    border-radius: 100%;
+  }
+  
+  #press {
+    background-color: $sec-color;
+    padding-bottom: 3%;
+  }
+  
+  .press-img {
+    width: 15%;
+    margin: 20px;
+  }
+  
+  .testimonials-text {
+    font-size: $font-size-std;
+    line-height: 1.5;
+  }
+  
+  /* pricing-section */
+  #pricing {
+    padding: 100px;
+  }
+  
+  .pricing-card {
+    padding: 3% 2%;
+  }
+  
+  @media (max-width : 1028px) {
+    .iphone {
+      position: static;
+      transform: rotate(0);
+      margin-top: 3rem;
+    }
+  
+    #title {
+      text-align: center;
+    }
+  }
+  
+  .pricing-text{
+    font-size: $font-size-std;
+    line-height: 1.5;
+  }
+  /* cta-section */
+  #cta {
+    background-color: $base-color;
+    color: white;
+    padding: 7% 15%;
+    ;
+  }
+  
+  /* footer-section */
+  #footer {
+    background-color: $tert-color;
+    padding: 3rem 0;
+  }
+  
+  .cta-button {
+    margin: 1rem;
+  }
+  
+  .cta-heading {
+    font-size: 3.5rem;
+    line-height: 1.5;
+  }
+  
